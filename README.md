@@ -1,8 +1,6 @@
 # NvidiaAI
 
-
-
-![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)
+![NvidiaAI: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)
 
 [![Swift](https://img.shields.io/badge/Swift-5.7_5.8_5.9-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.7_5.8_5.9-Orange?style=flat-square)
 
@@ -11,18 +9,11 @@ Alamofire is an HTTP networking library written in Swift.
 - [Features](#features)
 - [Installation](#installation)
 - [Example](#example)
-- [Contributing](#contributing)
-- [Usage](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#using-alamofire)
-- [Credits](#credits)
 - [License](#license)
 
 ## Features
 
-- [x] Chainable Request / Response Methods
-- [x] Extra
-- [x] [Complete Documentation](https://alamofire.github.io/Alamofire)
-
-
+- [x] Generate responses and outputs based on NVIDIA AI complex algorithms and machine learning techniques.
 
 ## Installation
 ### CocoaPods
