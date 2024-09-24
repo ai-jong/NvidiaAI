@@ -11,7 +11,7 @@ NvidiaAI is artificial intelligence (AI) generate response library written in Sw
 
 ## Features
 
-- [x] Generate responses and outputs based on <br> NVIDIA artificial intelligence complex algorithms and machine learning techniques.
+- [x] Generate responses and outputs based on NVIDIA artificial intelligence <br> complex algorithms and machine learning techniques.
   - [x] Automatic retry
   - [x] Synchronized requests
 
