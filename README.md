@@ -1,6 +1,6 @@
 # NvidiaAI
 
-![NvidiaAI: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)
+![NvidiaAI: Elegant Networking in Swift](nvidia.png)
 
 NvidiaAI is an HTTP networking library written in Swift.
 
