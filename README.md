@@ -31,7 +31,6 @@ Alamofire is an HTTP networking library written in Swift.
   - **Model Objects -** [Custom Response Handlers](https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#customizing-response-handlers)
   - **Advanced Concurrency -** [Swift Concurrency](https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#using-alamofire-with-swift-concurrency) and [Combine](https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#using-alamofire-with-combine)
   - **Connection -** [Security](https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#security), [Network Reachability](https://github.com/Alamofire/Alamofire/blob/master/Documentation/AdvancedUsage.md#network-reachability)
-- [Open Radars](#open-radars)
 - [FAQ](#faq)
 - [Credits](#credits)
 - [Donations](#donations)
@@ -54,34 +53,6 @@ nvidiaAI.request({ (response: String) in
 })
 
 ```
-
-## Component Libraries
-
-In order to keep Alamofire focused specifically on core networking implementations, additional component libraries have been created by the [Alamofire Software Foundation](https://github.com/Alamofire/Foundation) to bring additional functionality to the Alamofire ecosystem.
-
-- [AlamofireImage](https://github.com/Alamofire/AlamofireImage) - An image library including image response serializers, `UIImage` and `UIImageView` extensions, custom image filters, an auto-purging in-memory cache, and a priority-based image downloading system.
-- [AlamofireNetworkActivityIndicator](https://github.com/Alamofire/AlamofireNetworkActivityIndicator) - Controls the visibility of the network activity indicator on iOS using Alamofire. It contains configurable delay timers to help mitigate flicker and can support `URLSession` instances not managed by Alamofire.
-
-## Requirements
-
-| Platform                                             | Minimum Swift Version | Installation                                                                                                         | Status                   |
-| ---------------------------------------------------- | --------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| iOS 10.0+ / macOS 10.12+ / tvOS 10.0+ / watchOS 3.0+ | 5.7.1 / Xcode 14.1    | [CocoaPods](#cocoapods), [Carthage](#carthage), [Swift Package Manager](#swift-package-manager), [Manual](#manually) | Fully Tested             |
-| Android                                              | Latest Only           | [Swift Package Manager](#swift-package-manager)                                                                      | Building But Unsupported |
-
-#### Known Issues on Linux and Windows
-
-N/A
-
-
-## Migration Guides
-
-N/A
-
-
-## Communication
-
-N/A
 
 
 ## Installation
