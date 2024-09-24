@@ -48,10 +48,10 @@ Alamofire is an HTTP networking library written in Swift.
 Alamofire's compact syntax and extensive feature set allow requests with powerful features like automatic retry to be written in just a few lines of code.
 
 ```swift
-// Automatic String to URL conversion, Swift concurrency support, and automatic retry.
-        var nvidiaAI = NvidiaAI(apiKey: "your nvidia api key")
-        nvidiaAI.request({ (response: String) in
-        })
+// A simple request that generates AI response from an API
+var nvidiaAI = NvidiaAI(apiKey: "your nvidia api key")
+nvidiaAI.request({ (response: String) in
+})
 
 ```
 
