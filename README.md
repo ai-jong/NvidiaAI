@@ -71,58 +71,20 @@ In order to keep Alamofire focused specifically on core networking implementatio
 
 #### Known Issues on Linux and Windows
 
-Alamofire builds on Linux, Windows, and Android but there are missing features and many issues in the underlying `swift-corelibs-foundation` that prevent full functionality and may cause crashes. These include:
+N/A
 
-- `ServerTrustManager` and associated certificate functionality is unavailable, so there is no certificate pinning and no client certificate support.
-- Various methods of HTTP authentication may crash, including HTTP Basic and HTTP Digest. Crashes may occur if responses contain server challenges.
-- Cache control through `CachedResponseHandler` and associated APIs is unavailable, as the underlying delegate methods aren't called.
-- `URLSessionTaskMetrics` are never gathered.
-- `WebSocketRequest` is not available.
-
-Due to these issues, Alamofire is unsupported on Linux, Windows, and Android. Please report any crashes to the [Swift bug reporter](https://bugs.swift.org).
 
 ## Migration Guides
 
-- [Alamofire 5.0 Migration Guide](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Alamofire%205.0%20Migration%20Guide.md)
-- [Alamofire 4.0 Migration Guide](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Alamofire%204.0%20Migration%20Guide.md)
-- [Alamofire 3.0 Migration Guide](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Alamofire%203.0%20Migration%20Guide.md)
-- [Alamofire 2.0 Migration Guide](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Alamofire%202.0%20Migration%20Guide.md)
+N/A
+
 
 ## Communication
 
-- If you **need help with making network requests** using Alamofire, use [Stack Overflow](https://stackoverflow.com/questions/tagged/alamofire) and tag `alamofire`.
-- If you need to **find or understand an API**, check [our documentation](http://alamofire.github.io/Alamofire/) or [Apple's documentation for `URLSession`](https://developer.apple.com/documentation/foundation/url_loading_system), on top of which Alamofire is built.
-- If you need **help with an Alamofire feature**, use [our forum on swift.org](https://forums.swift.org/c/related-projects/alamofire).
-- If you'd like to **discuss Alamofire best practices**, use [our forum on swift.org](https://forums.swift.org/c/related-projects/alamofire).
-- If you'd like to **discuss a feature request**, use [our forum on swift.org](https://forums.swift.org/c/related-projects/alamofire).
-- If you **found a bug**, open an issue here on GitHub and follow the guide. The more detail the better!
+N/A
+
 
 ## Installation
-
-### Swift Package Manager
-
-The [Swift Package Manager](https://swift.org/package-manager/) is a tool for automating the distribution of Swift code and is integrated into the `swift` compiler.
-
-Once you have your Swift package set up, adding Alamofire as a dependency is as easy as adding it to the `dependencies` value of your `Package.swift` or the Package list in Xcode.
-
-```swift
-dependencies: [
-    .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.9.1"))
-]
-```
-
-Normally you'll want to depend on the `Alamofire` target:
-
-```swift
-.product(name: "Alamofire", package: "Alamofire")
-```
-
-But if you want to force Alamofire to be dynamically linked (do not do this unless you're sure you need it), you can depend on the `AlamofireDynamic` target:
-
-```swift
-.product(name: "AlamofireDynamic", package: "Alamofire")
-```
-
 ### CocoaPods
 
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
@@ -139,66 +101,19 @@ pod 'Alamofire'
 github "Alamofire/Alamofire"
 ```
 
-### Manually
-
-If you prefer not to use any of the aforementioned dependency managers, you can integrate Alamofire into your project manually.
-
-#### Embedded Framework
-
-- Open up Terminal, `cd` into your top-level project directory, and run the following command "if" your project is not initialized as a git repository:
-
-  ```bash
-  $ git init
-  ```
-
-- Add Alamofire as a git [submodule](https://git-scm.com/docs/git-submodule) by running the following command:
-
-  ```bash
-  $ git submodule add https://github.com/Alamofire/Alamofire.git
-  ```
-
-- Open the new `Alamofire` folder, and drag the `Alamofire.xcodeproj` into the Project Navigator of your application's Xcode project.
-
-  > It should appear nested underneath your application's blue project icon. Whether it is above or below all the other Xcode groups does not matter.
-
-- Select the `Alamofire.xcodeproj` in the Project Navigator and verify the deployment target matches that of your application target.
-- Next, select your application project in the Project Navigator (blue project icon) to navigate to the target configuration window and select the application target under the "Targets" heading in the sidebar.
-- In the tab bar at the top of that window, open the "General" panel.
-- Click on the `+` button under the "Embedded Binaries" section.
-- You will see two different `Alamofire.xcodeproj` folders each with two different versions of the `Alamofire.framework` nested inside a `Products` folder.
-
-  > It does not matter which `Products` folder you choose from, but it does matter whether you choose the top or bottom `Alamofire.framework`.
-
-- Select the top `Alamofire.framework` for iOS and the bottom one for macOS.
-
-  > You can verify which one you selected by inspecting the build log for your project. The build target for `Alamofire` will be listed as `Alamofire iOS`, `Alamofire macOS`, `Alamofire tvOS`, or `Alamofire watchOS`.
-
-- And that's it!
-
-  > The `Alamofire.framework` is automagically added as a target dependency, linked framework and embedded framework in a copy files build phase which is all you need to build on the simulator and a device.
-
 ## Contributing
-
-Before contributing to Alamofire, please read the instructions detailed in our [contribution guide](https://github.com/Alamofire/Alamofire/blob/master/CONTRIBUTING.md).
+N/A
 
 ## Open Radars
-
-The following radars have some effect on the current implementation of Alamofire.
-
-- [`rdar://21349340`](http://www.openradar.me/radar?id=5517037090635776) - Compiler throwing warning due to toll-free bridging issue in the test case
-- `rdar://26870455` - Background URL Session Configurations do not work in the simulator
-- `rdar://26849668` - Some URLProtocol APIs do not properly handle `URLRequest`
+N/A
 
 ## Resolved Radars
 
 The following radars have been resolved over time after being filed against the Alamofire project.
 
-- [`rdar://26761490`](http://www.openradar.me/radar?id=5010235949318144) - Swift string interpolation causing memory leak with common usage.
-  - (Resolved): 9/1/17 in Xcode 9 beta 6.
-- [`rdar://36082113`](http://openradar.appspot.com/radar?id=4942308441063424) - `URLSessionTaskMetrics` failing to link on watchOS 3.0+
-  - (Resolved): Just add `CFNetwork` to your linked frameworks.
-- `FB7624529` - `urlSession(_:task:didFinishCollecting:)` never called on watchOS
-  - (Resolved): Metrics now collected on watchOS 7+.
+- Issue 1.
+  - Issue 1.1.
+- Issue 2.
 
 ## FAQ
 
@@ -216,22 +131,10 @@ If you believe you have identified a security vulnerability with Alamofire, you 
 
 ## Sponsorship
 
-The [ASF](https://github.com/Alamofire/Foundation#members) is looking to raise money to officially stay registered as a federal non-profit organization.
-Registering will allow Foundation members to gain some legal protections and also allow us to put donations to use, tax-free.
 Sponsoring the ASF will enable us to:
 
 - Pay our yearly legal fees to keep the non-profit in good status
-- Pay for our mail servers to help us stay on top of all questions and security issues
-- Potentially fund test servers to make it easier for us to test the edge cases
-- Potentially fund developers to work on one of our projects full-time
 
-The community adoption of the ASF libraries has been amazing.
-We are greatly humbled by your enthusiasm around the projects and want to continue to do everything we can to move the needle forward.
-With your continued support, the ASF will be able to improve its reach and also provide better legal safety for the core members.
-If you use any of our libraries for work, see if your employers would be interested in donating.
-Any amount you can donate, whether once or monthly, to help us reach our goal would be greatly appreciated.
-
-[Sponsor Alamofire](https://github.com/sponsors/Alamofire)
 
 ## Supporters
 
