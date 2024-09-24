@@ -27,6 +27,7 @@ platform :ios, '14.0'
 use_frameworks!
 target 'NvidiaAITest' do
   pod 'NvidiaAI'
+#  pod 'NvidiaAI', :path => '/Users/jblaine/Documents/GitHub2024-05/SEA202405May/$Framework/Hello/Ship/Hello.podspec'
 end
 ```
 
