@@ -23,7 +23,11 @@ For usage and installation instructions, visit their website.<br>
 To integrate NvidiaAI into your Xcode project using CocoaPods, <br> specify it in your `Podfile`:
 
 ```ruby
-pod 'NvidiaAI'
+platform :ios, '13.0'
+use_frameworks!
+target 'NvidiaAITest' do
+  pod 'NvidiaAI'
+end
 ```
 
 ## Example
