@@ -12,7 +12,8 @@ NvidiaAI is artificial intelligence (AI) generate response library written in Sw
 ## Features
 
 - [x] Generate responses and outputs based on NVIDIA artificial intelligence complex algorithms and machine learning techniques.
-  - [x] extra
+  - [x] Automatic retry
+  - [x] Synchronized requests
 
 ## Installation
 ### CocoaPods
