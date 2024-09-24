@@ -10,6 +10,7 @@ Alamofire is an HTTP networking library written in Swift.
 
 - [Features](#features)
 - [Installation](#installation)
+- [Write Requests Fast](#Write Requests Fast)
 - [Contributing](#contributing)
 - [Usage](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#using-alamofire)
 - [Credits](#credits)
@@ -20,6 +21,17 @@ Alamofire is an HTTP networking library written in Swift.
 - [x] Chainable Request / Response Methods
 - [x] Extra
 - [x] [Complete Documentation](https://alamofire.github.io/Alamofire)
+
+
+
+## Installation
+### CocoaPods
+
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+pod 'Alamofire'
+```
 
 ## Write Requests Fast!
 
@@ -32,29 +44,6 @@ nvidiaAI.request({ (response: String) in
 })
 
 ```
-
-
-## Installation
-### CocoaPods
-
-[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
-
-```ruby
-pod 'Alamofire'
-```
-
-## Sponsorship
-
-Sponsoring the ASF will enable us to:
-
-- Pay our yearly legal fees to keep the non-profit in good status
-
-
-## Supporters
-
-[MacStadium](https://macstadium.com) provides Alamofire with a free, hosted Mac mini.
-
-![Powered by MacStadium](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/MacStadiumLogo.png)
 
 ## License
 
