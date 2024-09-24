@@ -10,7 +10,7 @@ Alamofire is an HTTP networking library written in Swift.
 
 - [Features](#features)
 - [Installation](#installation)
-- [Example](#example)
+- [Example](#example_code)
 - [Contributing](#contributing)
 - [Usage](https://github.com/Alamofire/Alamofire/blob/master/Documentation/Usage.md#using-alamofire)
 - [Credits](#credits)
