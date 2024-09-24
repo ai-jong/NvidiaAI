@@ -2,7 +2,7 @@
 
 ![NvidiaAI: Elegant Networking in Swift](nvidia.png)
 
-NvidiaAI is NVIDIA artificial intelligence (AI) generate response library written in Swift.
+NvidiaAI is artificial intelligence (AI) generate response library written in Swift.
 
 - [Features](#features)
 - [Installation](#installation)
