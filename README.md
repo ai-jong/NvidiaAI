@@ -25,6 +25,8 @@ cd your-repo-name
 npm install  # or pip install -r requirements.txt, etc.
 
 
-
+## contact
+Email: your.email@example.com
+GitHub: your-username
 
 
