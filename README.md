@@ -18,8 +18,8 @@ NvidiaAI is artificial intelligence (AI) generate response library written in Sw
 ## Installation
 ### CocoaPods
 
-[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. 
-For usage and installation instructions, visit their website. 
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects.<br> 
+For usage and installation instructions, visit their website.<br> 
 To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
