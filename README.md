@@ -2,9 +2,7 @@
 
 ![NvidiaAI: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/master/Resources/AlamofireLogo.png)
 
-[![Swift](https://img.shields.io/badge/Swift-5.7_5.8_5.9-orange?style=flat-square)](https://img.shields.io/badge/Swift-5.7_5.8_5.9-Orange?style=flat-square)
-
-Alamofire is an HTTP networking library written in Swift.
+NvidiaAI is an HTTP networking library written in Swift.
 
 - [Features](#features)
 - [Installation](#installation)
@@ -21,7 +19,7 @@ Alamofire is an HTTP networking library written in Swift.
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate Alamofire into your Xcode project using CocoaPods, specify it in your `Podfile`:
 
 ```ruby
-pod 'Alamofire'
+pod 'NvidiaAI'
 ```
 
 ## Example
@@ -38,5 +36,5 @@ nvidiaAI.request({ (response: String) in
 
 ## License
 
-Alamofire is released under the MIT license. [See LICENSE](https://github.com/Alamofire/Alamofire/blob/master/LICENSE) for details.
+NvidiaAI is released under the MIT license.
 
