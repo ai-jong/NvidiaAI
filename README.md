@@ -7,6 +7,7 @@ NvidiaAI is artificial intelligence (AI) generate response library written in Sw
 - [Features](#features)
 - [Installation](#installation)
 - [NvidiaAI](#NvidiaAI)
+- [NVIDIA API Key](#NvidiaAI2)
 - [Example](#example)
 - [License](#license)
 
