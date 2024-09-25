@@ -52,6 +52,6 @@ nvidiaAI.request({ (response: String) in
 
 NvidiaAI is released under the MIT license.
 
-## hi%20john
+## hi john
 To get started with NvidiaAI, get API key at [NVIDIA](https://www.nvidia.com/en-us/ai/).
 
