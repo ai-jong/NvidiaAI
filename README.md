@@ -32,7 +32,7 @@ target 'NvidiaAITest' do
 end
 ```
 ## NvidiaAI
-To get started with NvidiaAI, get API key at NVIDIA.
+To get started with NvidiaAI, get API key at [NVIDIA](https://www.nvidia.com/en-us/ai/).
 
 ## Example
 
