@@ -41,6 +41,7 @@ NvidiaAI's compact syntax and extensive feature set allow requests with powerful
 ```swift
 // A simple request that generates AI response from an API
 var nvidiaAI = NvidiaAI(apiKey: "your nvidia api key")
+
 nvidiaAI.request({ (response: String) in
 })
 
