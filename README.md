@@ -6,6 +6,7 @@ NvidiaAI is artificial intelligence (AI) generate response library written in Sw
 
 - [Features](#features)
 - [Installation](#installation)
+- [NvidiaAI](#NvidiaAI)
 - [Example](#example)
 - [License](#license)
 
@@ -27,9 +28,11 @@ platform :ios, '14.0'
 use_frameworks!
 target 'NvidiaAITest' do
   pod 'NvidiaAI'
-#  pod 'NvidiaAI', :path => '/Users/jblaine/Documents/GitHub2024-05/SEA202405May/$Framework/Hello/Ship/Hello.podspec'
+#  pod 'NvidiaAI', :path => 'https://github.com/NvidiaAI.podspec'
 end
 ```
+## NvidiaAI
+To get started with NvidiaAI, get API key at NVIDIA.
 
 ## Example
 
