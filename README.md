@@ -7,7 +7,7 @@ NvidiaAI is artificial intelligence (AI) generate response library written in Sw
 - [Features](#features)
 - [Installation](#installation)
 - [NvidiaAI](#NvidiaAI)
-- [NVIDIA API Key](#NvidiaApiKey)
+- [NVIDIA API Key](#NVIDIA_API_Key)
 - [Example](#example)
 - [License](#license)
 
@@ -52,6 +52,6 @@ nvidiaAI.request({ (response: String) in
 
 NvidiaAI is released under the MIT license.
 
-## NvidiaApiKey
+## NVIDIA_API_Key
 To get started with NvidiaAI, get API key at [NVIDIA](https://www.nvidia.com/en-us/ai/).
 
