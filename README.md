@@ -26,10 +26,11 @@ https://github.com/ai-jong/NvidiaAI/tree/main/Release
 ```ruby
 platform :ios, '14.0'
 use_frameworks!
-target 'NvidiaAITest' do
-  pod 'NvidiaAI'
-#  pod 'NvidiaAI', :path => 'https://github.com/ai-jong/NvidiaAI/Release/NvidiaAI.podspec'
+
+target 'NvidiaAIExample' do
+  pod "NvidiaAI", :git => 'https://github.com/ai-jong/NvidiaAI.git', :branch => 'main'
 end
+
 ```
 ## NVIDIA API Key
 To get started with NvidiaAI, get API key at [NVIDIA](https://www.nvidia.com/en-us/ai/).
