@@ -41,10 +41,21 @@ NvidiaAI's compact syntax and extensive feature set allow requests with powerful
 ```swift
 import NvidiaAI
 
-var nvidiaAI = NvidiaAI(apiKey: "your nvidia api key")
-
-nvidiaAI.request({ (response: String) in
-})
+func nvidiaAIExample() {
+    let nvidiaAI = NvidiaAI( apiKey: "nvapi-your nvidia api key");
+                
+     nvidiaAI.request("taiwan in five word or less") { ( result: String) in
+        print("result: \(result)")
+     }
+        
+     let questions = ["1+1", "1+2", "2+3"]
+     for (index, q) in questions.enumerated() {
+            print("Item \(index): \(q)")
+            nvidiaAI.request("calculate '\(q)'") { ( result: String) in
+                print("result: \(result)")
+            }
+        }
+     }
 ```
 
 ## License
