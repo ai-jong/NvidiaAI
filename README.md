@@ -54,8 +54,8 @@ func nvidiaAIExample() {
             nvidiaAI.request("calculate '\(q)'") { ( result: String) in
                 print("result: \(result)")
             }
-        }
      }
+}
 ```
 
 ## License
