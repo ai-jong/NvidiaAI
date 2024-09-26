@@ -1,6 +1,0 @@
-framework module NvidiaAI {
-  umbrella header "NvidiaAI.h"
-  export *
-
-  module * { export * }
-}
