@@ -44,7 +44,7 @@ import NvidiaAI
 func nvidiaAIExample() {
     let nvidiaAI = NvidiaAI( apiKey: "nvapi-your nvidia api key");
                 
-     nvidiaAI.request("taiwan in five word or less") { ( result: String) in
+     nvidiaAI.request("taiwan in five words or less") { ( result: String) in
         print("result: \(result)")
      }
         
