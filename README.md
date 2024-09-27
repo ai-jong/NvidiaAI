@@ -22,7 +22,7 @@ NvidiaAI is artificial intelligence (AI) generate response library written in Sw
 [CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects.<br> 
 For usage and installation instructions, visit their website.<br> 
 To integrate NvidiaAI into your Xcode project using CocoaPods, <br> specify it in your `Podfile`:
-https://github.com/ai-jong/NvidiaAI/tree/main/Release
+
 ```ruby
 platform :ios, '14.0'
 use_frameworks!
