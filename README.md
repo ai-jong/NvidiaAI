@@ -2,7 +2,7 @@
 
 ![NvidiaAI: Elegant Networking in Swift](nvidia.png)
 
-NvidiaAI is artificial intelligence (AI) generate response library written in Swift.
+NvidiaAI provides a powerful interface for integrating NVIDIA artificial intelligence capabilities into your iOS app, enabling seamless communication with advanced AI models.
 
 - [Features](#features)
 - [Installation](#installation)
@@ -11,11 +11,9 @@ NvidiaAI is artificial intelligence (AI) generate response library written in Sw
 - [License](#license)
 
 ## Features
-
-- [x] Generate responses and outputs based on NVIDIA artificial intelligence <br> complex algorithms and machine learning techniques. <br> <br>
-  - [x] Automatic retry
-  - [x] Synchronized requests
-
+- [x] Easy communication with NVIDIA AI for generating responses.
+- [x] Robust handling of machine learning outputs and AI-driven results.
+      
 ## Installation
 ### CocoaPods
 
