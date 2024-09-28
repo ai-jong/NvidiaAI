@@ -61,6 +61,6 @@ func nvidiaAIExample() {
 ## License
 NvidiaAI is released under the MIT license.
 
-## contact
+## Contact
 - [x] Author: John W. Blaine
 - [x] Email: john.w.blaine@gmail.com
