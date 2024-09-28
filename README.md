@@ -9,6 +9,7 @@ NvidiaAI provides a powerful interface for integrating NVIDIA artificial intelli
 - [NVIDIA API Key](#NVIDIA-API-Key)
 - [Example](#example)
 - [License](#license)
+- [Contact](#contact)
 
 ## Features
 - [x] Easy communication with NVIDIA AI for generating responses.
@@ -58,6 +59,8 @@ func nvidiaAIExample() {
 ```
 
 ## License
-
 NvidiaAI is released under the MIT license.
 
+## contact
+- [x] Author: John W. Blaine
+- [x] Email: john.w.blaine@gmail.com
